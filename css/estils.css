@@ -1,0 +1,160 @@
+
+
+body {
+    background-color: #ffff00;          
+    font-family: "DejaVu Serif", Georgia, "Times New Roman", serif;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;                    
+}
+
+
+#pagina {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+
+#capcalera {
+    background-color: #656462;
+    height: 60px;
+    text-align: center;
+}
+#capcalera img {
+    height: 52px;                       
+    margin-top: 4px;
+}
+
+
+#menu {
+    background-color: #656462;
+    height: 32px;
+    margin-top: 16px;
+    text-align: center;
+}
+#menu ul {
+    margin: 0;                           
+    padding: 0;
+    list-style: none;                    
+}
+#menu li {
+    display: inline-block;               
+    margin: 0 12px;                      
+    line-height: 32px;                   
+    color: orange;                       
+}
+
+
+a {
+    color: orange;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+a:hover {
+    color: #000000;                      
+    border-bottom: 1px solid #000000;    
+}
+
+
+article {
+    padding: 0 16px;
+}
+
+
+h1 {
+    color: #17678c;
+    font-size: 1.5em;                   
+    line-height: 1.2;
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 14px;
+}
+
+
+h2 {
+    font-size: 1.17em;
+    line-height: 18px;
+    margin: 13px 0 15px;
+}
+
+
+p {
+    margin: 13px 0;
+    text-align: justify;
+}
+
+
+p.entradeta {
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+
+hr {
+    margin: 0;
+}
+
+
+p.data {
+    margin: 0;
+    padding: 13px 0;
+    text-align: left;
+}
+
+p.data img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+p.data a:hover {
+    border-bottom-color: transparent;
+}
+
+
+.imatge-central {
+    text-align: center;
+    margin-top: 6px;
+}
+.imatge-central img {
+    width: 536px;                       
+    max-width: 100%;                     
+    height: auto;
+}
+
+
+.twitter-tweet {
+    margin: 13px 0;
+}
+
+
+ul {
+    margin: 13px 0 10px;
+    padding-left: 32px;
+    list-style-type: disc;
+}
+
+p.wikis {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 17px;
+}
+
+#peu {
+    background-color: #9955bb;
+    padding: 18px 0;
+    text-align: center;
+    height: 100px;
+}
+#peu img {
+    height: 100px;                      
+    vertical-align: top;
+}
+#peu a,
+
+#peu a:hover {
+    border-bottom: none;
+}
